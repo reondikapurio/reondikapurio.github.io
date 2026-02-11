@@ -3,34 +3,27 @@ import SkillCard from "./_components/SkillCard";
 export default function Home() {
   return (
     <main className="flex flex-col">
-      {/* Hero */}
-      <section className="min-h-[85vh] flex items-center px-6">
-        <div className="max-w-6xl mx-auto w-full">
 
-          <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-10">
-            {/* 顔 */}
-            <img
-              src="/IMG_E7233.JPG"
-              alt="Leon Kondo"
-              className="w-16 h-16 sm:w-12 sm:h-12 rounded-full object-cover grayscale shrink-0"
-            />
+      <section className="min-h-[85vh] flex flex-col md:flex-row items-center px-6 relative">
+        {/* 左：顔画像 */}
+        <div className="flex-shrink-0 mb-8 md:mb-0 md:mr-8">
+          <img
+            src="/IMG_E7233.JPG"
+            alt="Leon Kondo"
+            className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover grayscale opacity-80"
+          />
+        </div>
 
-            {/* テキスト */}
-            <div className="text-center sm:text-left">
-              <h1 className="text-4xl sm:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.05]">
-                Make Japan Stronger
-              </h1>
-
-              <p className="mt-6 sm:mt-8 text-gray-600 text-lg sm:text-xl max-w-2xl leading-relaxed">
-                I’m Leon Kondo. I build modern web applications with clarity, performance, and purpose.
-              </p>
-            </div>
-          </div>
-
-
+        {/* 右：テキスト */}
+        <div className="flex-1 flex flex-col justify-center text-center md:text-right">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.05]">
+            Make Japan Stronger
+          </h1>
+          <p className="mt-4 sm:mt-6 text-gray-600 text-lg sm:text-xl leading-relaxed">
+            I’m Leon Kondo. I build modern web applications with clarity, performance, and purpose.
+          </p>
         </div>
       </section>
-
 
 
 
