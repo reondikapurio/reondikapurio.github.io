@@ -7,28 +7,26 @@ export default function Home() {
       <section className="min-h-[85vh] flex items-center px-6">
         <div className="max-w-6xl mx-auto w-full">
 
-          <div className="flex items-center gap-10">
-
+          <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-10">
             {/* 顔 */}
             <img
               src="/IMG_E7233.JPG"
               alt="Leon Kondo"
-              className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover grayscale shrink-0"
+              className="w-16 h-16 sm:w-12 sm:h-12 rounded-full object-cover grayscale shrink-0"
             />
 
             {/* テキスト */}
-            <div>
+            <div className="text-center sm:text-left">
               <h1 className="text-4xl sm:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.05]">
                 Make Japan Stronger
               </h1>
 
-              <p className="mt-8 text-gray-600 text-lg sm:text-xl max-w-2xl leading-relaxed">
-                I’m Leon Kondo.
-                I build modern web applications with clarity, performance, and purpose.
+              <p className="mt-6 sm:mt-8 text-gray-600 text-lg sm:text-xl max-w-2xl leading-relaxed">
+                I’m Leon Kondo. I build modern web applications with clarity, performance, and purpose.
               </p>
             </div>
-
           </div>
+
 
         </div>
       </section>
@@ -172,7 +170,7 @@ export default function Home() {
           </h2>
 
           <p className="text-gray-600 text-lg">
-            leon@example.com
+            koreno0402@gmail.com
           </p>
         </div>
       </section>
