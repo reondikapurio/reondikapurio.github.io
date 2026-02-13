@@ -12,7 +12,7 @@ export default function RootLayout({
       <body className="bg-white text-black min-h-screen overflow-x-hidden">
 
         <Header />
-        <main className="pt-16 min-h-screen">
+        <main className="pt-16 min-h-screen font-serif">
           {children}
         </main>
       </body>

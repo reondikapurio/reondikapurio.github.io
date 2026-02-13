@@ -6,11 +6,11 @@ export default function Home() {
 
       <section className="min-h-[85vh] flex flex-col md:flex-row items-center px-6 relative">
         {/* 左：顔画像 */}
-        <div className="flex-shrink-0 mb-8 md:mb-0 md:mr-8">
+        <div className=" shrink-0 mb-8 md:mb-0 md:mr-8">
           <img
             src="/IMG_E7233.JPG"
             alt="Leon Kondo"
-            className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover grayscale opacity-80"
+            className="w-30 h-30 md:w-90 md:h-90 rounded-full object-cover grayscale opacity-80"
           />
         </div>
 
@@ -35,8 +35,9 @@ export default function Home() {
           </h2>
 
           <p className="text-gray-600 text-lg leading-relaxed">
-            Frontend-focused developer working with Next.js, React, and modern web technologies.
-            Passionate about clean architecture and refined user experience.
+            Mechanical Engineering student at Waseda University with a strong focus on robotics and intelligent systems.
+            Building full-stack web applications using Next.js, TypeScript, Prisma, and Supabase, while exploring scalable system design and modern architecture.
+            Currently developing control algorithms for robotic arms and continuously studying AI to bridge software, hardware, and real-world systems.
           </p>
         </div>
       </section>
